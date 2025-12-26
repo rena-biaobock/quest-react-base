@@ -4,5 +4,5 @@ type Props = {
 };
 
 export const ColoredParagraph = ({ paragraphText, textColor }: Props) => {
-  return <p style={{ color: textColor }}>{paragraphText}</p>;
+  return <p style={{ color: textColor }}>{paragraphText.toUpperCase()}</p>;
 };
