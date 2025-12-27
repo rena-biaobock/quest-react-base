@@ -10,7 +10,7 @@ function App() {
         textColor="#FF1189"
       />
 
-      <Button label="LABEL" />
+      <Button label="Baixar CV" />
     </>
   );
 }
